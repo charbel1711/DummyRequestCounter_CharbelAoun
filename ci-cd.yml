@@ -2,9 +2,9 @@ name: CI-CD (Docker Hub)
 
 on:
   push:
-    branches: [ main, devops-tp2-solution ]
+    branches: [ "*" ]
   pull_request:
-    branches: [ main ]
+    branches: [ "*" ]
   workflow_dispatch:
 
 env:
