@@ -17,4 +17,3 @@ def test_root_endpoint_tolerates_no_redis():
     assert r.status_code in (200, 503)
     if r.status_code == 200:
         assert "Hello" in r.text
-
