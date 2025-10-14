@@ -19,4 +19,4 @@ def test_root_with_redis(monkeypatch):
         assert r.status_code == 200
         assert "Hello" in r.text
 
-        
+     

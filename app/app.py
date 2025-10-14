@@ -59,4 +59,3 @@ async def health():
             status_code=500
         )
 
-    
